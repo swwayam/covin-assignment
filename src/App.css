@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    
+}
+
+
+.page-btns{
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.profile-btn{
+    background-color: rgba(0, 0, 0, 0.905);
+    border: none;
+    color: #fff;
+    margin:1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    display:inline-block;
+    width: 10rem;
+    height: 4rem;
+}
+
+.profile-btn:hover{
+    background-color: rgba(0, 0, 0);
+}
+
+.userInfo{
+    margin: 1rem 2rem;
+}
